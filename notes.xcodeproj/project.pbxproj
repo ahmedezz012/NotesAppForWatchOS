@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6407A8482AD8B94600EEBDFB /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407A8472AD8B94600EEBDFB /* NoteModel.swift */; };
+		6407A84A2AD8BF6100EEBDFB /* NoteItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407A8492AD8BF6100EEBDFB /* NoteItemView.swift */; };
+		64A8EDF42ADB44CA00EE1E21 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8EDF32ADB44CA00EE1E21 /* DetailsView.swift */; };
+		64A8EDF62ADB554200EE1E21 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A8EDF52ADB554200EE1E21 /* HeaderView.swift */; };
 		64D5784C2AD4B672005BAC05 /* notes Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 64D5784B2AD4B672005BAC05 /* notes Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		64D578512AD4B672005BAC05 /* notesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D578502AD4B672005BAC05 /* notesApp.swift */; };
-		64D578532AD4B672005BAC05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D578522AD4B672005BAC05 /* ContentView.swift */; };
+		64D578512AD4B672005BAC05 /* NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D578502AD4B672005BAC05 /* NotesApp.swift */; };
+		64D578532AD4B672005BAC05 /* CreateNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D578522AD4B672005BAC05 /* CreateNote.swift */; };
 		64D578552AD4B674005BAC05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D578542AD4B674005BAC05 /* Assets.xcassets */; };
 		64D578582AD4B674005BAC05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D578572AD4B674005BAC05 /* Preview Assets.xcassets */; };
+		64DD52772ADDD053003B1CB4 /* CreatedByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD52762ADDD053003B1CB4 /* CreatedByView.swift */; };
+		64DD52792ADDDC2E003B1CB4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD52782ADDDC2E003B1CB4 /* SettingsView.swift */; };
+		64DD527B2ADDE1FB003B1CB4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DD527A2ADDE1FB003B1CB4 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +46,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6407A8472AD8B94600EEBDFB /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		6407A8492AD8BF6100EEBDFB /* NoteItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItemView.swift; sourceTree = "<group>"; };
+		64A8EDF32ADB44CA00EE1E21 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		64A8EDF52ADB554200EE1E21 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		64D578452AD4B672005BAC05 /* notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D5784B2AD4B672005BAC05 /* notes Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "notes Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64D578502AD4B672005BAC05 /* notesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesApp.swift; sourceTree = "<group>"; };
-		64D578522AD4B672005BAC05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64D578502AD4B672005BAC05 /* NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesApp.swift; sourceTree = "<group>"; };
+		64D578522AD4B672005BAC05 /* CreateNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNote.swift; sourceTree = "<group>"; };
 		64D578542AD4B674005BAC05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D578572AD4B674005BAC05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64DD52762ADDD053003B1CB4 /* CreatedByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedByView.swift; sourceTree = "<group>"; };
+		64DD52782ADDDC2E003B1CB4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		64DD527A2ADDE1FB003B1CB4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +92,16 @@
 		64D5784F2AD4B672005BAC05 /* notes Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				64D578502AD4B672005BAC05 /* notesApp.swift */,
-				64D578522AD4B672005BAC05 /* ContentView.swift */,
+				64DD527D2ADDF06D003B1CB4 /* Data */,
+				64DD527C2ADDF05C003B1CB4 /* App */,
 				64D578542AD4B674005BAC05 /* Assets.xcassets */,
 				64D578562AD4B674005BAC05 /* Preview Content */,
+				6407A8492AD8BF6100EEBDFB /* NoteItemView.swift */,
+				64A8EDF32ADB44CA00EE1E21 /* DetailsView.swift */,
+				64A8EDF52ADB554200EE1E21 /* HeaderView.swift */,
+				64DD52762ADDD053003B1CB4 /* CreatedByView.swift */,
+				64DD52782ADDDC2E003B1CB4 /* SettingsView.swift */,
+				64DD527A2ADDE1FB003B1CB4 /* Extension.swift */,
 			);
 			path = "notes Watch App";
 			sourceTree = "<group>";
@@ -92,6 +112,23 @@
 				64D578572AD4B674005BAC05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64DD527C2ADDF05C003B1CB4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64D578502AD4B672005BAC05 /* NotesApp.swift */,
+				64D578522AD4B672005BAC05 /* CreateNote.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		64DD527D2ADDF06D003B1CB4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6407A8472AD8B94600EEBDFB /* NoteModel.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D578532AD4B672005BAC05 /* ContentView.swift in Sources */,
-				64D578512AD4B672005BAC05 /* notesApp.swift in Sources */,
+				64DD527B2ADDE1FB003B1CB4 /* Extension.swift in Sources */,
+				64D578532AD4B672005BAC05 /* CreateNote.swift in Sources */,
+				64DD52792ADDDC2E003B1CB4 /* SettingsView.swift in Sources */,
+				64A8EDF62ADB554200EE1E21 /* HeaderView.swift in Sources */,
+				64A8EDF42ADB44CA00EE1E21 /* DetailsView.swift in Sources */,
+				6407A84A2AD8BF6100EEBDFB /* NoteItemView.swift in Sources */,
+				64DD52772ADDD053003B1CB4 /* CreatedByView.swift in Sources */,
+				6407A8482AD8B94600EEBDFB /* NoteModel.swift in Sources */,
+				64D578512AD4B672005BAC05 /* NotesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

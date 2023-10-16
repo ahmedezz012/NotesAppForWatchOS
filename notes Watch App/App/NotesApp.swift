@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct notes_Watch_AppApp: App {
+struct Notes_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreateNote()
         }
     }
 }
